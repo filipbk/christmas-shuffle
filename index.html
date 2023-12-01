@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChristmasShuffle</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cookie&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>ChristmasShuffle</h1>
+      <h3>Secret Santa</h3>
+    </header>
+
+    <main>
+      <div class="form-container">
+        <label for="name">Enter the name:</label>
+        <input type="text" id="name" name="name" placeholder="Name 🎁" />
+        <button onclick="addPerson()">Add</button>
+        <button onclick="shuffleNames()">Shuffle names</button>
+      </div>
+
+      <ul id="persons-list" class="list"></ul>
+
+      <p>🎄 Merry Christmas! 🎄</p>
+
+      <div class="christmas-tree">
+        <span class="tree-layer">★</span>
+        <span class="tree-layer">★★</span>
+        <span class="tree-layer">★★★</span>
+        <span class="tree-layer">★★★★</span>
+        <span class="tree-layer">★★★★★</span>
+        <span class="tree-trunk">▲</span>
+      </div>
+    </main>
+
+    <footer>
+      <p>ChristmasShuffle &copy; 2023</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+body {
+  font-family: 'Great Vibes', cursive;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  background-color: #006400;
+  color: #fff;
+  min-height: 100vh;
+  display: grid;
+  text-align: center;
+}
+
+header {
+  background-color: #004d00;
+  padding: 0.1em 0;
+}
+
+main {
+  padding: 2em 0.5em;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3em;
+}
+
+p {
+  color: #eee;
+  font-size: 1.2em;
+}
+
+.christmas-tree {
+  margin-top: 2em;
+}
+
+.tree-layer {
+  display: block;
+  font-size: 2em;
+  color: #2ecc71;
+}
+
+.tree-trunk {
+  display: block;
+  font-size: 1em;
+  color: #8b4513;
+  margin-top: 0.5em;
+}
+
+footer {
+  background-color: #004d00;
+  color: white;
+  padding: 0.5em 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.form-container {
+  margin-top: 2em;
+  font-size: 20px;
+}
+
+input[type='text'] {
+  font-family: 'Great Vibes', cursive;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+button {
+  font-family: 'Great Vibes', cursive;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  background-color: #004d00;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .form-container {
+    margin-top: 1em;
+  }
+
+  input[type='text'] {
+    margin-bottom: 0.5em;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+  }
+}
+
+.list {
+  text-align: left;
+  font-size: 20px;
+}
